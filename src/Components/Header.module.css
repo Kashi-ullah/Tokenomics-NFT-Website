@@ -1,0 +1,42 @@
+*{
+    font-family: 'Bungee Inline', cursive;
+}
+.MainHeader{
+    background-color: dodgerblue;
+    color: white;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+@media screen and (max-width: 600px) {
+    .MainHeader {
+        flex-direction: column;
+    }
+}
+.logo{
+    height: 60px;
+    width: 60px;
+}
+
+.links a{
+    text-decoration: none;
+    color: yellow;
+    margin-left: 15px;  
+    font-weight: bolder;  
+}
+@media screen and (max-width: 600px) {
+    .links a {
+        display: flex;
+        flex-direction: column;
+      
+    }
+}
+.links a:hover{
+    color: black;
+}
+.socialIcons{
+
+}
